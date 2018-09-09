@@ -1,0 +1,3 @@
+cd <game directory>
+mv ModLauncher.bin.x86_64 ModLauncher.bin.x86_64.bak
+ln -s Torchlight2.bin.x86_64 ModLauncher.bin.x86_64
