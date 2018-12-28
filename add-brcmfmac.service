@@ -1,0 +1,11 @@
+[Unit]
+Description=Enable brcmfmac kernel module after sleep
+DefaultDependencies=no
+After=sleep.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/modprobe brcmfmac
+
+[Install]
+WantedBy=sleep.target
