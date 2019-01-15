@@ -1,2 +1,89 @@
-Xft.dpi: 185
+! Fonts {{{
+Xft.antialias: true
+Xft.hinting:   true
+Xft.rgba:      rgb
+Xft.hintstyle: hintfull
+Xft.dpi:       185
 Xcursor.size: 48
+! }}}
+
+! Urxvt {{{
+
+urxvt.font: xft:Consolas:size=12,xft:FontAwesome-11
+URxvt.letterSpace: -2
+!urxvt.font: xft:Roboto Mono for Powerline-11,xft:FontAwesome-11
+URxvt*scrollBar:  false
+!URxvt*jumpScroll: true
+!URxvt*skipScroll: true
+!URxvt*saveLines:  32767
+!URxvt*visualBell: false
+!URrxvt.urgentOnBell: true
+
+URxvt*depth:       24
+URxvt*buffered:    true
+URxvt*transparent: false
+URxvt*shading:     100
+
+!URxvt*intensityStyles: false
+URxvt*termName: xterm-256color
+URxvt.imLocale: fr_CA.UTF-8
+URxvt*background:   #2E3440
+URxvt*cursorBlink:  true
+
+!Stop using my shortcuts
+!URxvt.searchable-scrollback: CM-s
+
+!URxvt.perl-ext:      default,url-select,resize-font
+!URxvt.keysym.M-u:    perl:url-select:select_next
+!URxvt.url-select.launcher:   /bin/firefox-nightly -new-tab
+!URxvt.url-select.underline: true
+
+!URxvt.keysym.C-minus:     resize-font:smaller
+!URxvt.keysym.C-plus:      resize-font:bigger
+!URxvt.keysym.C-equal:     resize-font:reset
+!URxvt.keysym.C-question:  resize-font:show
+
+!Colors{{{
+
+urxvt*foreground: #f2f2f2
+URxvt*background:  #2E3440
+
+
+! Normal
+! color0    black
+! color1    red
+! color2    green
+! color3    yellow
+! color4    blue
+! color5    purple
+! color6    cyan
+! color7    white
+
+urxvt*color0:    #6c6c6c
+urxvt*color1:    #e9897c
+urxvt*color2:    #b6e77d
+urxvt*color3:    #ecebbe
+urxvt*color4:    #a9cdeb
+urxvt*color5:    #ea96eb
+urxvt*color6:    #c9caec
+urxvt*color7:    #f2f2f2
+
+! Light
+! color8    black
+! color9    red
+! color10    green
+! color11    yellow
+! color12    blue
+! color13    purple
+! color14    cyan
+! color15    white
+
+urxvt*color8:    #747474
+urxvt*color9:    #f99286
+urxvt*color10:    #c3f786
+urxvt*color11:    #fcfbcc
+urxvt*color12:    #b6defb
+urxvt*color13:    #fba1fb
+urxvt*color14:    #d7d9fc
+urxvt*color15:    #e2e2e2
+!}}}

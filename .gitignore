@@ -1,0 +1,20 @@
+# Ignore everything
+*
+
+# But not these
+!applications/*
+!conf/*
+!deploy.sh
+!games/*
+!.gitignore
+!.hidden
+!packages
+!README.md
+!LICENSE
+!scripts/*
+!services
+!.vimrc
+!.Xresources
+
+# Even subdirectories
+!*/

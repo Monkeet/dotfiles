@@ -26,3 +26,5 @@ sudo cp services/* /etc/systemd/system
 # Games
 cp games/oldschool.prm /home/etienne/.config/runescape/share/prms/
 sudo cp games/osbuddy /usr/bin/osbuddy
+
+# TODO: Vim runtime
