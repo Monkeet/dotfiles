@@ -15,6 +15,7 @@
 !services
 !.vimrc
 !.Xresources
+!screenshot.png
 
 # Even subdirectories
 !*/
