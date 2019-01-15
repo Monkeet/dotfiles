@@ -12,7 +12,7 @@ That's it ! Now reboot your machine :smile:
 
 ### Create a list of installed packages
 
-    $ pacman -Qqdt > packages
+    $ pacman -Qet | cut -d " " -f 1 > packages
 
 ### Restore a list of packages (on a new system)
 
