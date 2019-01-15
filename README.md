@@ -1,6 +1,8 @@
 # dotfiles
 My dotfiles for my fancy archlinux mbp config ^^
 
+![ScreenShot](./screenshot.png)
+
 ## Installation
 
  $ sudo ./deploy.sh
