@@ -5,3 +5,6 @@ jagexappletviewer.preferences
 jagex_cl_oldschool_LIVE.dat
 random.dat
 mbp.xkb
+deploy.sh
+LICENSE
+README.md

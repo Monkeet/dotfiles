@@ -1,6 +1,8 @@
 #!/bin/bash
 #
 # Script pour déployer les fichiers de configuration.
+# Prérequis : Vous devez avoir un accès sudo
+#
 
 # Vérification des droits
 if (( $UID == 0 )) ; then
@@ -24,7 +26,8 @@ sudo cp scripts/* /usr/local/bin
 sudo cp services/* /etc/systemd/system
 
 # Games
-cp games/oldschool.prm /home/etienne/.config/runescape/share/prms/
+cp games/oldschool.prm /~/.config/runescape/share/prms/
 sudo cp games/osbuddy /usr/bin/osbuddy
 
-# TODO: Vim runtime
+# User configs
+cp .Xresources .hidden ~
