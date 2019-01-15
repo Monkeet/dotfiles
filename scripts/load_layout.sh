@@ -8,5 +8,5 @@ i3-msg "workspace 2 : " && (gnome-terminal &) && disown
 i3-msg "workspace 2 : " && (gnome-terminal &) && disown
 sleep 2
 i3-msg "workspace 4 : " && (thunar &) && disown
-sleep 2
+sleep 3
 i3-msg "workspace 1 : "
