@@ -1,22 +1,23 @@
 # dotfiles
-My dotfiles for my fancy archlinux mbp config ^^
+This is my fancy archlinux mbp config :smile:
 
 ![ScreenShot](./screenshot.png)
 
 ## Installation
 
- $ sudo ./deploy.sh
+    $ git clone https://github.com/Monkeet/dotfiles ~/.dotfiles
+    $ ~/.dotfiles/scripts/deploy.sh
 
-And reboot your machine :)
+That's it ! Now reboot your machine :smile:
 
-## Create a list of installed packages
+### Create a list of installed packages
 
- $ pacman -Qqdt > packages
+    $ pacman -Qqdt > packages
 
-## Restore a list of packages (on a new system)
+### Restore a list of packages (on a new system)
 
- $ sudo pacman -S $(cat packages)
+    $ sudo pacman -S $(cat packages)
 
-## If they include aur packages you can
+### If they include aur packages you can
 
- $ pacaur -S $(cat packages)
+    $ pacaur -S $(cat packages)
