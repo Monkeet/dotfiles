@@ -14,20 +14,20 @@ fi
 sudo cp applications/* /usr/share/applications/
 
 # Configs
-sudo cp conf/30-touchpad.conf /etc/X11/xorg.conf.d/
-sudo cp conf/90-xhc_sleep.rules /etc/udev/rules.d/
-sudo cp conf/environment /etc/
-sudo cp conf/logind.conf /etc/systemd/
+sudo cp ~/.dotfiles/conf/30-touchpad.conf /etc/X11/xorg.conf.d/
+sudo cp ~/.dotfiles/conf/90-xhc_sleep.rules /etc/udev/rules.d/
+sudo cp ~/.dotfiles/conf/environment /etc/
+sudo cp ~/.dotfiles/conf/logind.conf /etc/systemd/
 
 # Scripts
-sudo cp scripts/* /usr/local/bin
+sudo rsync -av ~/.dotfiles/scripts/ /usr/local/bin/ --exclude $0
 
 # Services
-sudo cp services/* /etc/systemd/system
+sudo cp ~/.dotfiles/services/* /etc/systemd/system
 
 # Games
-cp games/oldschool.prm /~/.config/runescape/share/prms/
-sudo cp games/osbuddy /usr/bin/osbuddy
+cp ~/.dotfiles/games/oldschool.prm /~/.config/runescape/share/prms/
+sudo cp ~/.dotfiles/games/osbuddy /usr/bin/osbuddy
 
 # User configs
 cp .Xresources .hidden ~
