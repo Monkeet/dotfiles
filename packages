@@ -26,6 +26,7 @@ discord
 docker-compose
 dolphin-emu
 dunst
+duplicity
 eclipse-java
 enpass-bin
 eog
@@ -67,7 +68,6 @@ linux-macbook-headers
 logrotate
 lutris
 lxappearance
-mailspring
 man-pages
 maven
 mbpfan-git
