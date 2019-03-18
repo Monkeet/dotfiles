@@ -14,11 +14,11 @@ fi
 sudo cp applications/* /usr/share/applications/
 
 # Configs
-sudo cp ~/.dotfiles/conf/30-touchpad.conf /etc/X11/xorg.conf.d/
-sudo cp ~/.dotfiles/conf/90-xhc_sleep.rules /etc/udev/rules.d/
-sudo cp ~/.dotfiles/conf/environment /etc/
-sudo cp ~/.dotfiles/conf/logind.conf /etc/systemd/
-sudo cp ~/.dotfiles/conf/vconsole.conf /etc/
+sudo cp ~/.dotfiles/config/30-touchpad.conf /etc/X11/xorg.conf.d/
+sudo cp ~/.dotfiles/config/90-xhc_sleep.rules /etc/udev/rules.d/
+sudo cp ~/.dotfiles/config/environment /etc/
+sudo cp ~/.dotfiles/config/logind.conf /etc/systemd/
+sudo cp ~/.dotfiles/config/vconsole.conf /etc/
 
 # Scripts
 sudo rsync -av ~/.dotfiles/scripts/ /usr/local/bin/ --exclude $0

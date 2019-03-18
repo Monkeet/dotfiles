@@ -1,7 +1,7 @@
 #!/bin/bash
 
 i3-msg "workspace 1 : " && (chromium &) && disown
-i3-msg "workspace 3 : " && (thunderbird &) && disown
+i3-msg "workspace 3 : " && (evolution &) && disown
 i3-msg "workspace 10 : " && (spotify &) && disown
 sleep 2
 i3-msg "workspace 2 : " && (gnome-terminal &) && disown

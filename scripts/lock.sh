@@ -5,7 +5,7 @@ retro=$(xbacklight -ctrl smc::kbd_backlight -get)
 playerStatus=$(playerctl status)
 
 # Lock it up!
-betterlockscreen -l &
+betterlockscreen -l dim -t "Tapez le mot de passe..." &
 
 # Mettre la musique en pause?
 if [[ $playerStatus == "Playing" ]] ; then

@@ -1,0 +1,2 @@
+#!/usr/bin/bash
+ssh -p50667 root@LEDE /usr/bin/etherwake -D -i "eth0" "ac:22:0b:7e:77:c3"

@@ -5,7 +5,7 @@ Before=sleep.target
 [Service]
 User=etienne
 Environment=DISPLAY=:0
-ExecStart=/usr/bin/betterlockscreen -l
+ExecStart=/home/etienne/.dotfiles/scripts/lock.sh
 #ExecStartPre=
 ExecStartPost=/usr/bin/sleep 1
 
