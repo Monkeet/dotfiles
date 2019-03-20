@@ -21,7 +21,8 @@ sudo cp ~/.dotfiles/config/logind.conf /etc/systemd/
 sudo cp ~/.dotfiles/config/vconsole.conf /etc/
 
 # Scripts
-sudo rsync -av ~/.dotfiles/scripts/ /usr/local/bin/ --exclude $0
+sudo rsync -av ~/.dotfiles/bin/ /usr/local/bin/
+sudo rsync -av ~/.dotfiles/sbin/ /usr/local/sbin/
 
 # Services
 sudo cp ~/.dotfiles/services/* /etc/systemd/system

@@ -20,4 +20,4 @@ That's it ! Now reboot your machine :smile:
 
 ### If they include aur packages you can
 
-    $ pacaur -S $(cat packages)
+    $ yay -S $(cat packages)

@@ -1,2 +1,0 @@
-sleep 5;
-while true; do xdotool mousemove 2250 950; xdotool click 3; xdotool mousemove 2225 1085; xdotool click 1 ; sleep 6; done
