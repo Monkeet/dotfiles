@@ -18,6 +18,7 @@
 !screenshot.png
 !bin/*
 !sbin/*
+!mod/*
 
 # Even subdirectories
 !*/
