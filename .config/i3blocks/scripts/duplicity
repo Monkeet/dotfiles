@@ -1,0 +1,7 @@
+#!/bin/bash
+
+if ps -ef | grep "python2 /usr/bin/[d]uplicity" &> /dev/null; then
+    echo " DUP"
+    echo " DUP"
+    echo "#7CF3D3"
+fi

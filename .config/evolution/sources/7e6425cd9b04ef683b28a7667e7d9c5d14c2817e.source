@@ -1,0 +1,22 @@
+[Data Source]
+DisplayName=etienne.s.audet@gmail.com
+Enabled=true
+Parent=
+
+[Authentication]
+Host=
+Method=Google
+Port=0
+ProxyUid=system-proxy
+RememberPassword=true
+User=etienne.s.audet@gmail.com
+CredentialName=
+
+[Collection]
+BackendName=google
+CalendarEnabled=true
+ContactsEnabled=true
+Identity=etienne.s.audet@gmail.com
+MailEnabled=true
+CalendarUrl=
+ContactsUrl=

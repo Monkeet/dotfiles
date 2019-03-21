@@ -1,0 +1,49 @@
+[Data Source]
+DisplayName=e_t_audet@hotmail.com
+Enabled=true
+Parent=b0f58cfd1e0296b17841f88b152e1ad6da7ffa07
+
+[Mail Submission]
+SentFolder=folder://b0f58cfd1e0296b17841f88b152e1ad6da7ffa07/Sent
+TransportUid=d36b1e837c21b3128655fda19b714368fcf10742
+RepliesToOriginFolder=false
+UseSentFolder=true
+
+[Mail Composition]
+Bcc=
+Cc=
+DraftsFolder=folder://b0f58cfd1e0296b17841f88b152e1ad6da7ffa07/Drafts
+ReplyStyle=default
+SignImip=true
+TemplatesFolder=folder://local/Templates
+StartBottom=inconsistent
+TopSignature=inconsistent
+Language=
+
+[Mail Identity]
+Address=e_t_audet@hotmail.com
+Aliases=
+Name=Étienne St-Amant-Audet
+Organization=
+ReplyTo=
+SignatureUid=2efd624c77711e3fa25f7b6e0ddf204c4301de28
+
+[Pretty Good Privacy (OpenPGP)]
+AlwaysTrust=false
+EncryptToSelf=true
+KeyId=
+SigningAlgorithm=
+SignByDefault=false
+EncryptByDefault=false
+PreferInline=false
+
+[Message Disposition Notifications]
+ResponsePolicy=ask
+
+[Secure MIME (S/MIME)]
+EncryptionCertificate=
+EncryptByDefault=false
+EncryptToSelf=true
+SigningAlgorithm=
+SigningCertificate=
+SignByDefault=false

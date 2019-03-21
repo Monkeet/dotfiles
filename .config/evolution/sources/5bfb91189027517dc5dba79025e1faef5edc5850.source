@@ -1,0 +1,35 @@
+[Data Source]
+DisplayName=google-ETS
+Enabled=true
+Parent=
+
+[Authentication]
+Host=
+Method=Google
+Port=0
+ProxyUid=system-proxy
+RememberPassword=true
+User=etienne.st-amant-audet.1@etsmtl.net
+CredentialName=
+
+[Collection]
+BackendName=google
+CalendarEnabled=true
+ContactsEnabled=true
+Identity=etienne.st-amant-audet.1@etsmtl.net
+MailEnabled=true
+CalendarUrl=
+ContactsUrl=
+
+[Security]
+Method=none
+
+[WebDAV Backend]
+AvoidIfmatch=false
+CalendarAutoSchedule=false
+Color=
+DisplayName=
+EmailAddress=
+ResourcePath=
+ResourceQuery=
+SslTrust=

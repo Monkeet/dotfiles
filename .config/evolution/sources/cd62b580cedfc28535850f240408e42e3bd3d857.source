@@ -1,0 +1,49 @@
+[Data Source]
+DisplayName=google-ETS
+Enabled=true
+Parent=5bfb91189027517dc5dba79025e1faef5edc5850
+
+[Mail Submission]
+SentFolder=folder://local/Sent
+TransportUid=80ba6d06b2e6597c82bbb998926e80f4b0539264
+RepliesToOriginFolder=false
+UseSentFolder=true
+
+[Mail Composition]
+Bcc=
+Cc=
+DraftsFolder=folder://local/Drafts
+ReplyStyle=default
+SignImip=true
+TemplatesFolder=folder://local/Templates
+StartBottom=inconsistent
+TopSignature=inconsistent
+Language=
+
+[Mail Identity]
+Address=etienne.st-amant-audet.1@etsmtl.net
+Aliases=
+Name=Étienne St-Amant-Audet
+Organization=
+ReplyTo=
+SignatureUid=none
+
+[Pretty Good Privacy (OpenPGP)]
+AlwaysTrust=false
+EncryptToSelf=true
+KeyId=
+SigningAlgorithm=
+SignByDefault=false
+EncryptByDefault=false
+PreferInline=false
+
+[Message Disposition Notifications]
+ResponsePolicy=ask
+
+[Secure MIME (S/MIME)]
+EncryptionCertificate=
+EncryptByDefault=false
+EncryptToSelf=true
+SigningAlgorithm=
+SigningCertificate=
+SignByDefault=false

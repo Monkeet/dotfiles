@@ -1,0 +1,29 @@
+[Data Source]
+DisplayName=etienne.s.audet@gmail.com
+Enabled=true
+Parent=7e6425cd9b04ef683b28a7667e7d9c5d14c2817e
+
+[Mail Submission]
+SentFolder=folder://local/Sent
+TransportUid=8b8c3a6199957903b4b250120dfb13cb7a6cb020
+RepliesToOriginFolder=false
+UseSentFolder=true
+
+[Mail Composition]
+Bcc=
+Cc=
+DraftsFolder=folder://dc65cbab95a3e8bb60c03cf2c24cdc1059fe4aed/%5bGmail%5d/Drafts
+ReplyStyle=default
+SignImip=true
+TemplatesFolder=folder://local/Templates
+StartBottom=inconsistent
+TopSignature=inconsistent
+Language=
+
+[Mail Identity]
+Address=etienne.s.audet@gmail.com
+Aliases=
+Name=Étienne St-Amant-Audet
+Organization=
+ReplyTo=
+SignatureUid=none

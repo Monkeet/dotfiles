@@ -1,0 +1,7 @@
+#!/bin/bash
+
+STATUS=$(sudo netctl is-active vpn)
+
+if [[ $STATUS == "active" ]] ; then
+  echo "  ETS-VPN"
+fi
