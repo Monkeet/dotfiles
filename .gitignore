@@ -12,7 +12,7 @@
 !README.md
 !LICENSE
 !scripts/*
-!services
+!services/*
 !.vimrc
 !.Xresources
 !screenshot.png
