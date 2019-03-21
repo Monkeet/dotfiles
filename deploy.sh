@@ -11,7 +11,7 @@ if (( $UID == 0 )) ; then
 fi
 
 # Applications
-sudo cp applications/* /usr/share/applications/
+sudo rsync -av applications/ /usr/share/applications/
 
 # Configs
 sudo cp ~/.dotfiles/config/30-touchpad.conf /etc/X11/xorg.conf.d/
@@ -19,17 +19,18 @@ sudo cp ~/.dotfiles/config/90-xhc_sleep.rules /etc/udev/rules.d/
 sudo cp ~/.dotfiles/config/environment /etc/
 sudo cp ~/.dotfiles/config/logind.conf /etc/systemd/
 sudo cp ~/.dotfiles/config/vconsole.conf /etc/
+rsync -av ~/.dotfiles/.config/ ~/.config/
 
 # Scripts
 sudo rsync -av ~/.dotfiles/bin/ /usr/local/bin/
 sudo rsync -av ~/.dotfiles/sbin/ /usr/local/sbin/
 
 # Services
-sudo cp ~/.dotfiles/services/* /etc/systemd/system
+sudo rsync -av ~/.dotfiles/services/ /etc/systemd/system/
 
 # Games
 cp ~/.dotfiles/games/oldschool.prm /~/.config/runescape/share/prms/
 sudo cp ~/.dotfiles/games/osbuddy /usr/bin/osbuddy
 
 # User configs
-cp .Xresources .hidden ~
+cp .xinitrc .Xresources .hidden ~
