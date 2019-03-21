@@ -28,6 +28,9 @@ sudo rsync -av ~/.dotfiles/sbin/ /usr/local/sbin/
 # Services
 sudo rsync -av ~/.dotfiles/services/ /etc/systemd/system/
 
+# Udev rules
+sudo rsync -av ~/.dotfiles/udev/ /etc/udev/rules.d/
+
 # Games
 cp ~/.dotfiles/games/oldschool.prm /~/.config/runescape/share/prms/
 sudo cp ~/.dotfiles/games/osbuddy /usr/bin/osbuddy
