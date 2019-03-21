@@ -33,4 +33,4 @@ cp ~/.dotfiles/games/oldschool.prm /~/.config/runescape/share/prms/
 sudo cp ~/.dotfiles/games/osbuddy /usr/bin/osbuddy
 
 # User configs
-cp .xinitrc .Xresources .hidden ~
+cp .vimrc .xinitrc .Xresources .hidden ~
