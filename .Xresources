@@ -3,51 +3,30 @@ Xft.antialias: true
 Xft.hinting:   true
 Xft.rgba:      rgb
 Xft.hintstyle: hintfull
-Xft.dpi:       185
-Xcursor.size: 48
+Xft.dpi:       152
+Xcursor.size: 32
 ! }}}
 
 ! Urxvt {{{
 
-urxvt.font: xft:Consolas:size=12,xft:FontAwesome-11
-URxvt.letterSpace: -2
-!urxvt.font: xft:Roboto Mono for Powerline-11,xft:FontAwesome-11
+URxvt.font: xft:Consolas:size=12,xft:FontAwesome-11
+URxvt.letterSpace: -1
 URxvt*scrollBar:  false
-!URxvt*jumpScroll: true
-!URxvt*skipScroll: true
-!URxvt*saveLines:  32767
-!URxvt*visualBell: false
-!URrxvt.urgentOnBell: true
 
 URxvt*depth:       24
 URxvt*buffered:    true
 URxvt*transparent: false
 URxvt*shading:     100
 
-!URxvt*intensityStyles: false
 URxvt*termName: xterm-256color
 URxvt.imLocale: fr_CA.UTF-8
 URxvt*background:   #2E3440
 URxvt*cursorBlink:  true
 
-!Stop using my shortcuts
-!URxvt.searchable-scrollback: CM-s
+! Colors{{{
 
-!URxvt.perl-ext:      default,url-select,resize-font
-!URxvt.keysym.M-u:    perl:url-select:select_next
-!URxvt.url-select.launcher:   /bin/firefox-nightly -new-tab
-!URxvt.url-select.underline: true
-
-!URxvt.keysym.C-minus:     resize-font:smaller
-!URxvt.keysym.C-plus:      resize-font:bigger
-!URxvt.keysym.C-equal:     resize-font:reset
-!URxvt.keysym.C-question:  resize-font:show
-
-!Colors{{{
-
-urxvt*foreground: #f2f2f2
+URxvt*foreground: #f2f2f2
 URxvt*background:  #2E3440
-
 
 ! Normal
 ! color0    black
