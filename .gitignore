@@ -16,6 +16,8 @@
 !.vimrc
 !.Xresources
 !screenshot.png
+!bin/*
+!sbin/*
 
 # Even subdirectories
 !*/
