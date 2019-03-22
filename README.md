@@ -6,7 +6,7 @@ This is my fancy archlinux mbp config :smile:
 ## Installation
 
     $ git clone https://github.com/Monkeet/dotfiles ~/.dotfiles
-    $ ~/.dotfiles/scripts/deploy.sh
+    $ ~/.dotfiles/install
 
 That's it ! Now reboot your machine :smile:
 
