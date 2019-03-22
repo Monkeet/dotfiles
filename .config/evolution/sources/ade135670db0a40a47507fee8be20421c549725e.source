@@ -1,7 +1,0 @@
-[Data Source]
-DisplayName=ETS
-Enabled=true
-Parent=
-
-[Mail Signature]
-MimeType=text/html
