@@ -35,6 +35,10 @@ sudo groupadd -r autologin
 sudo gpasswd -a etienne autologin
 sudo cp ~/.dotfiles/config/lightdm.conf /etc/lightdm/lightdm.conf
 
+# Grub
+sudo grub-mkfont --output=/boot/grub/fonts/DejaVuSansMono24.pf2 --size=24 /usr/share/fonts/TTF/DejaVuSansMono.ttf
+sudo cp ~/.dotfiles/config/grub /etc/default/grub
+
 # Games
 cp ~/.dotfiles/games/oldschool.prm /~/.config/runescape/share/prms/
 sudo cp ~/.dotfiles/games/osbuddy /usr/bin/osbuddy
