@@ -27,6 +27,9 @@ sudo rsync -av ~/.dotfiles/sbin/ /usr/local/sbin/
 # Services
 sudo rsync -av ~/.dotfiles/services/ /etc/systemd/system/
 
+# Sleep pre&post script
+sudo cp ~/.dotfiles/config/brcmfmacfix /usr/lib/systemd/system-sleep/brcmfmacfix
+
 # Udev rules
 sudo rsync -av ~/.dotfiles/udev/ /etc/udev/rules.d/
 
