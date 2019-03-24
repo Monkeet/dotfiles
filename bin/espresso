@@ -1,0 +1,32 @@
+#!/bin/bash
+
+enable () {
+   echo enable
+   caffeine kill &> /dev/null
+   caffeine -a &> /dev/null &
+   disown
+}
+
+disable () {
+   echo disable
+   caffeine kill &> /dev/null
+   caffeine -d &> /dev/null &
+   disown
+}
+
+canSleep="---------------------------------------------------------------------------------------------"
+result=$(sudo smbstatus --shares | tail -2 | head -1)
+
+if pidof ffmpeg &> /dev/null  ; then
+   enable
+elif pidof kodi &> /dev/null  ; then
+   enable
+elif [[ $result != $canSleep ]] ; then
+   enable
+elif pidof deja-dup &> /dev/null  ; then
+   enable
+elif pidof duplicity &> /dev/null  ; then
+   enable
+else
+   disable
+fi
