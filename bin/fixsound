@@ -1,0 +1,5 @@
+#!/bin/bash
+if pulseaudio --check  ; then
+    pulseaudio -k
+fi
+pulseaudio -D
