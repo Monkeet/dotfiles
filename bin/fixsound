@@ -2,4 +2,5 @@
 if pulseaudio --check  ; then
     pulseaudio -k
 fi
+sleep 0.1
 pulseaudio -D

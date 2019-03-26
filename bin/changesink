@@ -1,0 +1,11 @@
+#!/bin/bash 
+
+extoutput=$(xrandr | grep -v "eDP-1" |grep ' connected' | tail -1 | cut -d " " -f 1)
+
+if [[ $extoutput == "" ]] ; then
+  target=0
+else
+  target=$(pacmd info | grep index | grep \* | tail -1 | cut -f5 -d " ")
+fi
+
+pacmd move-sink-input 0 $target
