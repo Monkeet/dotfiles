@@ -3,7 +3,7 @@ Description=Example systemd service.
 
 [Service]
 Type=simple
-ExecStart=/usr/local/sbin/remove_ignore_usb-device.sh 05ac 8406
+ExecStart=echo 'on' > '/sys/bus/usb/devices/1-2/power/control';
 
 [Install]
 WantedBy=multi-user.target

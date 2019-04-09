@@ -1,6 +1,9 @@
 #!/bin/sh
 if [ "${1}" == "pre" ]; then
+   #echo "we are suspending at $(date)..." > /tmp/systemd_suspend_test
    /usr/bin/rmmod brcmfmac
 elif [ "${1}" == "post" ]; then
+   #sleep 10
+   #echo "...and we are back from $(date)" >> /tmp/systemd_suspend_test
    /usr/bin/modprobe brcmfmac
 fi
