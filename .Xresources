@@ -17,11 +17,27 @@ URxvt*depth:       24
 URxvt*buffered:    true
 URxvt*transparent: false
 URxvt*shading:     100
+URxvt.iso14755: false
+URxvt.iso14755_52: false
 
-URxvt*termName: xterm-256color
+URxvt*termName: rxvt-unicode-256color
 URxvt.imLocale: fr_CA.UTF-8
 URxvt*background:   #2E3440
 URxvt*cursorBlink:  true
+
+!Xterm escapes, word by word movement
+URxvt.keysym.Control-Left:    \033[1;5D
+URxvt.keysym.Control-Right:    \033[1;5C
+
+!-*- Perl extensions -*-
+URxvt.perl-ext-common: default,selection-to-clipboard,pasta,matcher,keyboard-select
+URxvt.keysym.M-u:     perl:url-select:select_next
+URxvt.url-launcher:   /usr/bin/chromium
+URxvt.underlineURLs:  True
+URxvt.matcher.button: 1
+URxvt.keysym.M-Escape:perl:keyboard-select:activate
+URxvt.keysym.Control-Shift-V:     perl:pasta:paste
+URxvt.clipboard.autocopy: true
 
 ! Colors{{{
 
