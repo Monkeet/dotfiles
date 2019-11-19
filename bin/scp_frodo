@@ -1,0 +1,2 @@
+#!/usr/bin/bash
+scp -o ProxyCommand="ssh -pXXXXX USER1@HOST1 nc HOST2 PORT2" USER2@HOST2:$1 $2
