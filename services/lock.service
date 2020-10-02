@@ -6,6 +6,7 @@ Before=sleep.target
 User=etienne
 Environment=DISPLAY=:0
 ExecStart=/home/etienne/.dotfiles/bin/lock
+#ExecStartPre=/usr/bin/sleep 0.5
 ExecStartPost=/usr/bin/sleep 0.4
 
 [Install]

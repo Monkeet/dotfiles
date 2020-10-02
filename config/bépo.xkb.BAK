@@ -100,7 +100,7 @@ xkb_keycodes "evdev+aliases(azerty)" {
     <RCTL> = 105;
     <KPDV> = 106;
     <PRSC> = 107;
-    <RALT> = 134;
+    <RALT> = 108;
     <LNFD> = 109;
     <HOME> = 110;
       <UP> = 111;
@@ -126,7 +126,7 @@ xkb_keycodes "evdev+aliases(azerty)" {
     <HJCV> = 131;
     <AE13> = 132;
     <LWIN> = 37;
-    <RWIN> = 108;
+    <RWIN> = 134;
     <COMP> = 135;
     <STOP> = 136;
     <AGAI> = 137;
@@ -1486,7 +1486,8 @@ xkb_symbols "pc+fr(bepo)+inet(evdev)" {
         symbols[Group1]= [ ISO_Level3_Shift ]
     };
     key <LSGT> {
-        [           Alt_L,          Meta_L ]
+        type= "FOUR_LEVEL_SEMIALPHABETIC",
+        symbols[Group1]= [     ecircumflex,     Ecircumflex,           slash,       brokenbar ]
     };
     key <FK11> {
         type= "CTRL+ALT",
@@ -1659,7 +1660,6 @@ xkb_symbols "pc+fr(bepo)+inet(evdev)" {
     modifier_map Mod1 { <META> };
     modifier_map Mod4 { <SUPR> };
     modifier_map Mod4 { <HYPR> };
-    modifier_map Mod3 { <LSGT> };
 };
 
 xkb_geometry "pc(pc105)" {

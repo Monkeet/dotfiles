@@ -1,0 +1,30 @@
+#!/usr/bin/env bash
+
+{ while IFS=';' read u1 p1; do
+   chromium --incognito &
+   i3-msg workspace "1 : "
+   sleep 2
+   xdotool mousemove 928 190
+   xdotool click 1
+   sleep 8
+
+   echo $u1 | xclip
+   xdotool mousemove 1208 805
+   xdotool click 2
+   xdotool key Return
+   sleep 2
+   echo $p1 | xclip
+   xdotool mousemove 1185 849
+   xdotool click 2
+   xdotool key Return
+   sleep 4
+   xdotool key Return
+
+   sleep 10
+
+   killall chromium
+
+   sleep 2
+
+done ; } < failed.txt
+
